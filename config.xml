@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='utf-8'?>
+<widget id="rent.skokvartal.kz" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Квартал.Маркетинг</name>
+    <description>
+	Мобильное приложение "Квартал.Маркетинг" является продуманной структурой, которая позволяет Арендатором торгового центра "Квартал" внедрять свои акции, конкурсы и различные скидочные предложения в маркетинг торгового центра.
+	Арендатору достаточно подготовить заголовок, описание и баннер акционного предложения, а затем отправить данные менеджеру через контактную форму на одобрение.
+	В случае если ваша акция прошла модерация и её одобрили, данные предложения попадут на сайт и в социальные сети ТЦ "Квартал".
+    </description>
+    <author email="support@shvedoff.ru" href="https://shvedoff.ru">
+
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon src="assets/logo-white.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-inappbrowser" spec="~1.5.0" />
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+</widget>
